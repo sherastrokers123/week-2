@@ -29,7 +29,10 @@ export function Todolist(props: PropsType) {
             })}
 
 
-            <li><input type="checkbox" checked={props.tasks[0].isDone} /> <span>{props.tasks[0].title}</span></li>
+            <li>
+                <input type="checkbox" checked={props.tasks[0].isDone} />
+                <span>{props.tasks[0].title}</span>
+            </li>
 
         </ul>
         <div>
